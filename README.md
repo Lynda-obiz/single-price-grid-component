@@ -23,7 +23,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Live Site URL: ()
+- Live Site URL: (https://meelynda.github.io/single-price-grid-component/)
 
 ## My process
 
