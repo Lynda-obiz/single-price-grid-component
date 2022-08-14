@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(204, 43%, 93%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin:6rem auto;
+    max-width: 40rem;
+    padding: 1.5rem 1.5rem;
+}
+.community h1{
+    padding-bottom: 1.5rem;
+    color: hsl(179, 62%, 43%);
+}
+h3{
+    padding-bottom: 1.5rem;
+    color: hsl(71, 73%, 54%);
+}
+.container-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Subscription{
+    background-color: hsl(178, 80%, 30%);
+    padding: 1.5rem 1.5rem;
+}
+.Subscription h4{
+    padding-bottom: 1rem;
+}
+h4, .Subscription p, h1{
+    color:hsl(204, 43%, 93%) ;
+}
+.community{
+    background-color: #fff; 
+    padding: 2rem;
+}
+.community p{
+    color: hsl(217, 21%, 71%);
+}
+
+span {
+font-size: 0.8rem;
+padding-left: 0.5rem;
+color: hsl(179, 62%, 43%);
+}
+
+.programs{
+    background-color: hsl(179, 62%, 43%);
+    padding: 1.5rem 1.5rem;
+}
+
+.programs ul {
+    margin-top: 1rem;
+}
+.programs ul li{
+    list-style: none;
+    color: hsl(204, 5%, 82%);
+    line-height: 1.3rem;
+}
+.dollar{
+    font-size: 2rem;
+}
+h1 {
+    display: flex;
+    align-items: center;
+}
+button{
+   color: hsl(204, 43%, 93%); 
+   background: hsl(71, 73%, 54%);
+   border: 0;
+   padding: 1rem;
+   width: 100%;
+   margin-top: 2rem;
+   border-radius: .5rem;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .container{
+    margin:2rem auto;
+    max-width: 20rem;
+    }
+    .container-2{
+    display: block;
+}
+
+.community h1{
+   font-size: 1.3rem;
+}
+
+h3{
+    font-size: 0.8rem;
+}
+
+.Subscription p{
+    font-size: 0.9rem;
+}
+
+.programs ul {
+    margin-top: 1rem;
+}
+}
+    
+
+
